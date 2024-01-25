@@ -32,7 +32,7 @@ class IntroPage extends StatelessWidget {
                 'Brand new sneakers and custom kicks made with premium quality',
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.grey,
+                  color: Colors.black,
                 ),
                 textAlign: TextAlign.center,
               ),
