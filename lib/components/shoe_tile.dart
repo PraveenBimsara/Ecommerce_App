@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../models/shoe.dart';
-
 class ShoeTile extends StatelessWidget {
-  Shoe shoe;
-  ShoeTile({super.key, required this.shoe});
-
+  ShoeTile({super.key});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,9 +12,7 @@ class ShoeTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
-        children: [
-          Image.asset(shoe.imagePath),
-        ],
+        children: [],
       ),
     );
   }
